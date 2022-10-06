@@ -7,7 +7,7 @@ before('navigate to google', () => {
     cy.visit('https://www.google.com')
 })
 
-it('navigate to google', () => {
+it('enter docker in search bar', () => {
 
     cy.get('input[name="q"]').type('Docker{enter}')
 } )
